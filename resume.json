@@ -1,1 +1,108 @@
-{"titleNameMap":{"educationList":"教育背景","workExpList":"工作经历","projectList":"项目经历","skillList":"个人技能","awardList":"更多信息","workList":"个人作品","aboutme":"自我介绍"},"avatar":{"hidden":false,"shape":"square"},"profile":{"name":"周吉昊","email":"zhoujh.fe@gmail.com","mobile":"18826227349","github":"https://github.com/warpprism","zhihu":"","workExpYear":"5年","workPlace":"深圳","positionTitle":"高级前端工程师"},"educationList":[{"edu_time":["2013.09.01","2017.06.30"],"school":"中山大学","major":"软件工程","academic_degree":"本科","dataIndex":0}],"awardList":[],"workExpList":[{"company_name":"Shopee","department_name":"Enterprise Effenciency","work_time":"2021.06,2022.09","work_desc":"1. Seatalk开放平台（简称SOP）核心成员，负责开发Admin Portal、Open App、SDK等多个项目\n2. 担任SOP SDK侧的前端负责人，带领团队成员维护RN SDK和WEB SDK，并引领SDK的统一工作。","dataIndex":0},{"company_name":"金山办公","department_name":"智能美化研发中台","work_time":"2018.04-2021.04","work_desc":"1.智能PPT小程序前端负责人，负责把控小程序开发、部署、审核、上线的全流程\n2.WPS PPT美化团队核心成员，负责多个wps hybrid page的开发和落地，并实现wps端内的页面优化","dataIndex":1},{"company_name":"中国电信 21CN","department_name":"用户体验设计部","work_time":"2017.07-2018.03","work_desc":"参与流量宝、看荐、聚投诉移动端等多个产品的研发","dataIndex":2}],"skillList":[{"skill_name":"主流前端框架","skill_level":80,"skill_desc":"Vue / React / React Native / Nuxt","dataIndex":0},{"skill_name":"前端工程","skill_level":80,"skill_desc":"Webpack / Rollup / Gulp / Babel / CICD","dataIndex":1},{"skill_name":"小程序","skill_level":80,"skill_desc":"原生小程序 / UniApp / Taro 等"},{"skill_name":"前端进阶","skill_level":60,"skill_desc":"Web Audio / Canvas / Three.js / ECharts"},{"skill_name":"后端技术栈","skill_level":50,"skill_desc":"Nodejs / Nginx / Docker / CDN / WordPress CMS"},{"skill_name":"英语","skill_level":80,"skill_desc":"CET6"}],"projectList":[{"project_name":"SOP UniSDK","project_role":"前端负责人","project_time":"2022.02 - 2022.05","project_desc":"SOP UniSDK 是一套面向开发者的更友好的SDK接入层。实现一套代码，按需编译，有效解决了原有的两种SDK（Web、ReactNative）不统一的问题，极大的提高了团队内部和外部开发者的效率。","project_content":"1. 负责整个SDK流程的分层架构设计，确定了Uni SDK在整个分层中的定位。\n2. 负责Uni SDK核心模块的设计和实现，将gcc的条件编译模式应用到typescript上，以实现条件编译。实现React Native小程序、和Web小程序的运行时。\n3. 负责制定旧API的迁移方案，包括入参、出参、异常处理规范，单元测试方案等等。并负责多个模块的迁移工作。\n\n","dataIndex":0},{"project_time":"2020.03 - 2020.06","project_name":"智能PPT小程序","project_role":"前端负责人","project_desc":"智能PPT小程序是金山办公出品的快速PPT生成工具，只需编写大纲文本，就可一键生成PPT并美化。\n体验地址：https://aippt.wps.cn/welcome","project_content":"负责智能PPT移动端（H5 + 小程序）的开发和上线\n采用UniApp技术栈，实现智能PPT项目一对多构建，集成统一登录、双重验证、大纲编辑、智能美化等模块，成功发布到H5、微信小程序&百度小程序。核心功能大纲编辑，采用多叉树的数据结构实现CURD，采用Vue递归组件渲染树状UI，采用全局唯一TextArea避开小程序原生组件的bug，最终成功落地，使得项目具有高兼容，易维护，模块解耦，扩展性强等特点。","dataIndex":1}],"workList":[{"work_name":"AutoPiano (5.5k star)","work_desc":"AutoPiano是基于WebAudio、Nuxt、WordPress技术开发的在线钢琴应用，实现了键盘控制，Midi自动播放， Midi外接设备，XML解析，音符雨，乐谱上传等功能。","visit_link":"https://github.com/AutoPiano","dataIndex":0}],"aboutme":{"aboutme_desc":""},"theme":{"color":"#2f5785","tagColor":"#8bc34a"}}
+{
+  "titleNameMap": {
+    "educationList": "教育背景",
+    "workExpList": "工作经历",
+    "projectList": "项目经历",
+    "skillList": "个人技能",
+    "awardList": "更多信息",
+    "workList": "个人作品",
+    "aboutme": "自我介绍"
+  },
+  "avatar": {
+    "hidden": false,
+    "shape": "square",
+    "url": "https://www.autopiano.cn/favicon.ico"
+  },
+  "profile": {
+    "name": "周吉昊",
+    "email": "zhoujh.fe@gmail.com",
+    "mobile": "18826227349",
+    "github": "https://github.com/warpprism",
+    "zhihu": "",
+    "workExpYear": "5年",
+    "workPlace": "深圳",
+    "positionTitle": "高级前端工程师"
+  },
+  "educationList": [{
+    "edu_time": ["2013.09.01", "2017.06.30"],
+    "school": "中山大学",
+    "major": "软件工程",
+    "academic_degree": "本科",
+    "dataIndex": 0
+  }],
+  "awardList": [],
+  "workExpList": [{
+    "company_name": "Shopee",
+    "department_name": "Enterprise Effenciency",
+    "work_time": "2021.06-2022.09",
+    "work_desc": "1. Seatalk开放平台（简称SOP）核心成员，负责开发Admin Portal、Open App、SDK等多个项目\n2. 担任SOP SDK侧的前端负责人，带领团队成员维护RN SDK和WEB SDK，并引领SDK的统一工作。",
+    "dataIndex": 0
+  }, {
+    "company_name": "金山办公",
+    "department_name": "智能美化研发中台",
+    "work_time": "2018.04-2021.04",
+    "work_desc": "1.智能PPT小程序前端负责人，负责把控小程序开发、部署、审核、上线的全流程\n2.WPS PPT美化团队核心成员，负责多个wps hybrid page的开发和落地，并实现wps端内的页面优化",
+    "dataIndex": 1
+  }, {
+    "company_name": "中国电信 21CN",
+    "department_name": "用户体验设计部",
+    "work_time": "2017.07-2018.03",
+    "work_desc": "参与流量宝、看荐、聚投诉移动端等多个产品的研发",
+    "dataIndex": 2
+  }],
+  "skillList": [{
+    "skill_name": "主流前端框架",
+    "skill_level": 80,
+    "skill_desc": "Vue / React / React Native / Nuxt",
+    "dataIndex": 0
+  }, {
+    "skill_name": "前端工程",
+    "skill_level": 80,
+    "skill_desc": "Webpack / Rollup / Gulp / Babel / CICD",
+    "dataIndex": 1
+  }, {
+    "skill_name": "小程序",
+    "skill_level": 80,
+    "skill_desc": "原生小程序 / UniApp / Taro 等"
+  }, {
+    "skill_name": "前端进阶",
+    "skill_level": 60,
+    "skill_desc": "Web Audio / Canvas / Three.js / ECharts"
+  }, {
+    "skill_name": "后端技术栈",
+    "skill_level": 50,
+    "skill_desc": "Nodejs / Nginx / Docker / CDN / WordPress CMS"
+  }, {
+    "skill_name": "英语",
+    "skill_level": 80,
+    "skill_desc": "CET6"
+  }],
+  "projectList": [{
+    "project_name": "SOP UniSDK",
+    "project_role": "前端负责人",
+    "project_time": "2022.02 - 2022.05",
+    "project_desc": "SOP UniSDK 是一套面向开发者的更友好的SDK接入层。实现一套代码，按需编译，有效解决了原有的两种SDK（Web、ReactNative）不统一的问题，极大的提高了团队内部和外部开发者的效率。",
+    "project_content": "1. 负责整个SDK流程的分层架构设计，确定了Uni SDK在整个分层中的定位。\n2. 负责Uni SDK核心模块的设计和实现，将gcc的条件编译模式应用到typescript上，以实现条件编译。实现React Native小程序、和Web小程序的运行时。\n3. 负责制定旧API的迁移方案，包括入参、出参、异常处理规范，单元测试方案等等。并负责多个模块的迁移工作。\n\n",
+    "dataIndex": 0
+  }, {
+    "project_time": "2020.03 - 2020.06",
+    "project_name": "智能PPT小程序",
+    "project_role": "前端负责人",
+    "project_desc": "智能PPT小程序是金山办公出品的快速PPT生成工具，只需编写大纲文本，就可一键生成PPT并美化。\n体验地址：https://aippt.wps.cn/welcome",
+    "project_content": "负责智能PPT移动端（H5 + 小程序）的开发和上线\n采用UniApp技术栈，实现智能PPT项目一对多构建，集成统一登录、双重验证、大纲编辑、智能美化等模块，成功发布到H5、微信小程序&百度小程序。核心功能大纲编辑，采用多叉树的数据结构实现CURD，采用Vue递归组件渲染树状UI，采用全局唯一TextArea避开小程序原生组件的bug，最终成功落地，使得项目具有高兼容，易维护，模块解耦，扩展性强等特点。",
+    "dataIndex": 1
+  }],
+  "workList": [{
+    "work_name": "AutoPiano (5.5k star)",
+    "work_desc": "AutoPiano是基于WebAudio、Nuxt、WordPress技术开发的在线钢琴应用，实现了键盘控制，Midi自动播放， Midi外接设备，XML解析，音符雨，乐谱上传等功能。",
+    "visit_link": "https://github.com/AutoPiano",
+    "dataIndex": 0
+  }],
+  "aboutme": {
+    "aboutme_desc": ""
+  },
+  "theme": {
+    "color": "#2f5785",
+    "tagColor": "#8bc34a"
+  }
+}
